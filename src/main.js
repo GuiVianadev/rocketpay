@@ -10,7 +10,7 @@ function setCardType(type) {
     visa: ["#436d99", "#2D57f2"],
     mastercard: ["#DF6F29", "#C69347"],
     nubank: ["#A70CF0", "#5606FF"],
-    default: ["Black", "gray"],
+    default: ["#838383", "#2F2E30"],
   }
 
   ccBgColor01.setAttribute("fill", colors[type][0])
